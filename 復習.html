@@ -3,9 +3,10 @@
 <head>
     <title>復習</title>
     <style>
-        body{
-            background-color:#111;
+        body {
+            background-color: #111;
         }
+
         h1 {
             color: blue;
             font-size: 400%;
@@ -15,29 +16,43 @@
             margin: 10px;
             padding: 10px;
         }
-        h2{
-            background-color:yellow;
-            width:70%;
-            height:100px;
-            margin:20px;
-            padding:40px;
-            font-size:150%;
+
+        h2 {
+            background-color: yellow;
+            width: 70%;
+            height: 100px;
+            margin: 20px;
+            padding: 40px;
+            font-size: 150%;
         }
-        p{
-            color:white;
-            text-align:center;
+
+        p {
+            color: white;
+            text-align: center;
         }
-        ul, li{
-            color:white;
-            overflow:hidden;
+
+        ul, li {
+            color: white;
+            overflow: hidden;
         }
+
         .playing {
             background-color: #FFFFCC;
         }
+
         .study {
             background-color: #CCFFCC;
         }
+
+        chage {
+        }
     </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        hoge = function (a, b, c) { return a + b + c + 10; }
+    </script>
+
+
 </head>
 <body>
     <h1>夏休みの思い出</h1>
@@ -65,5 +80,14 @@
     </div>
     
     <p>いろいろなまなびがありました。</p>
+
+    <script type="text/javascript">
+        $(function () {
+            $('.playing').click(function () {
+                $(this).text("dadadadadaddadadadadadadadadadadadadadadada");
+            });
+        });
+
+    </script>
 </body>
 </html>
